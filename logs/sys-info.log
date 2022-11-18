@@ -1,0 +1,72 @@
+12:58:07.042 [restartedMain] INFO  v.p.ques.Application - [logStarting,50] - Starting Application on Hzone with PID 17448 (started by 59273 in C:\Users\59273\Desktop\软件产品构建实践\boot-ques-master)
+12:58:07.048 [restartedMain] INFO  v.p.ques.Application - [logStartupProfileInfo,679] - The following profiles are active: dev
+12:58:10.933 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+12:58:10.945 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:58:10.945 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+12:58:10.954 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Program Files\apache-tomcat-10.0.20\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Java\jdk-17.0.2\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Pandoc\;C:\Users\59273\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\59273\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\59273\AppData\Local\Programs\Python\Python310\;C:\Users\59273\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\bin;C:\Program Files\JetBrains\CLion 2021.3.4\bin;C:\Users\59273\AppData\Roaming\nvm;C:\Program Files\nodejs;.]
+12:58:11.153 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:58:15.802 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,975] - {dataSource-1} inited
+12:58:16.057 [restartedMain] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+12:58:16.059 [restartedMain] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+12:58:18.916 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+12:58:21.205 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+12:58:21.241 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+12:58:21.314 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+12:58:21.592 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+12:58:21.594 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+12:58:21.630 [restartedMain] INFO  v.p.ques.Application - [logStarted,59] - Started Application in 15.073 seconds (JVM running for 17.292)
+12:59:08.085 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:59:14.658 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+13:00:58.519 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+13:01:13.278 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15870459792][Error][验证码错误]
+13:01:18.771 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15870459792][Success][登录成功]
+13:03:55.104 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15870459792][Logout][退出成功]
+13:04:01.444 [schedule-pool-4] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+13:32:01.596 [Thread-30] INFO  sys-user - [shutdownAsyncManager,30] - ====关闭后台任务任务线程池====
+13:32:01.598 [Thread-30] INFO  c.a.d.p.DruidDataSource - [close,2063] - {dataSource-1} closing ...
+13:32:01.600 [Thread-30] INFO  c.a.d.p.DruidDataSource - [close,2136] - {dataSource-1} closed
+15:48:31.402 [restartedMain] INFO  v.p.ques.Application - [logStarting,50] - Starting Application on Hzone with PID 19576 (started by 59273 in C:\Users\59273\Desktop\软件产品构建实践\boot-ques-master)
+15:48:31.404 [restartedMain] INFO  v.p.ques.Application - [logStartupProfileInfo,679] - The following profiles are active: dev
+15:48:33.656 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:48:33.665 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:48:33.665 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+15:48:33.671 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Program Files\apache-tomcat-10.0.20\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Java\jdk-17.0.2\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Pandoc\;C:\Users\59273\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\59273\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\59273\AppData\Local\Programs\Python\Python310\;C:\Users\59273\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\bin;C:\Program Files\JetBrains\CLion 2021.3.4\bin;C:\Users\59273\AppData\Roaming\nvm;C:\Program Files\nodejs;.]
+15:48:33.796 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:48:37.332 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,975] - {dataSource-1} inited
+15:48:37.521 [restartedMain] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+15:48:37.523 [restartedMain] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+15:48:39.252 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+15:48:40.226 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+15:48:40.241 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+15:48:40.276 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+15:48:40.421 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+15:48:40.423 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+15:48:40.440 [restartedMain] INFO  v.p.ques.Application - [logStarted,59] - Started Application in 9.34 seconds (JVM running for 10.529)
+15:48:46.111 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:48:54.865 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+15:51:50.620 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+15:52:36.609 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+15:53:51.690 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+15:54:02.288 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[13090901222][Success][登录成功]
+15:56:20.975 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[13090901222][Logout][退出成功]
+15:56:40.025 [schedule-pool-4] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+15:58:58.482 [schedule-pool-5] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+15:59:11.424 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[13012349090][Success][登录成功]
+16:01:07.880 [schedule-pool-6] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[13012349090][Logout][退出成功]
+16:01:20.203 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15960506050][Success][登录成功]
+16:06:45.456 [schedule-pool-7] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+16:08:45.205 [schedule-pool-10] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+16:13:51.032 [http-nio-8080-exec-1] INFO  v.p.q.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,55] - 登录用户：15960506050 已被删除.
+16:13:51.047 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15960506050][Error][对不起，您的账号：15960506050 已被删除]
+16:16:20.368 [schedule-pool-11] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15960501234][Success][登录成功]
+16:21:48.131 [schedule-pool-6] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15960501234][Success][登录成功]
+16:28:19.826 [schedule-pool-12] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[15960501234][Logout][退出成功]
+16:28:28.704 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+16:37:23.548 [http-nio-8080-exec-20] INFO  o.d.c.GlobalSettings - [loadGlobalSettings,113] - Trying to find Dozer configuration file: dozer.properties
+16:37:23.553 [http-nio-8080-exec-20] INFO  o.d.DozerInitializer - [init,75] - Initializing Dozer. Version: 5.5.0, Thread Name: http-nio-8080-exec-20
+16:37:23.557 [http-nio-8080-exec-20] INFO  o.d.j.JMXPlatformImpl - [register,66] - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+16:37:23.558 [http-nio-8080-exec-20] INFO  o.d.j.JMXPlatformImpl - [register,66] - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+16:37:23.559 [http-nio-8080-exec-20] INFO  o.d.DozerBeanMapper - [init,175] - Initializing a new instance of dozer bean mapper.
+17:10:43.857 [Thread-26] INFO  sys-user - [shutdownAsyncManager,30] - ====关闭后台任务任务线程池====
+17:10:43.858 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,2063] - {dataSource-1} closing ...
+17:10:43.859 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,2136] - {dataSource-1} closed
